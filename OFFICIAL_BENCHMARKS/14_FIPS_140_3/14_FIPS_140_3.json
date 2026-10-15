@@ -1,0 +1,16 @@
+{
+ "framework": "14_FIPS_140_3",
+ "title": "FIPS 140-3 cryptographic module validation",
+ "project": "DCI_VTON",
+ "basis": [
+  {
+   "check": "08_soc2_type2",
+   "status": "PASS",
+   "observed": "{\"authority\": \"AICPA\", \"control_ids\": [\"CC6.1\", \"CC6.2\", \"CC"
+  }
+ ],
+ "verdict": "CONTROLS EVIDENCED \u2014 all basis checks PASS",
+ "pax_provenance": "Run ID loiskleinner/pax-benchmark-runner v3, 2026-10-02, Kaggle T4 x2 (2x 16GB VRAM), Ubuntu 22.04, Python 3.12. These are PAX L5 Narrow L2 General 27B model-level results \u2014 shared model component, not this project's verdict.",
+ "bench_sha3": "19fa6789187cddfea9f8f7acb3d2a7f38c7729076d808fc8cb2c8f16dc0a9367",
+ "register_sha3": "e583c3a549eb414cb433f9c7270c6bb1fba489731fa62ca664a600e32ed936c4"
+}
